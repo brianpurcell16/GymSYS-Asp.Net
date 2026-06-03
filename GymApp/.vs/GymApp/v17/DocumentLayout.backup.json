@@ -1,12 +1,87 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\GithubLocalRepos\\GymSYS Asp.Net\\GymApp\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F49B243F-080C-494C-B3D3-11F6C11A3A5F}|GymApp.csproj|e:\\githublocalrepos\\gymsys asp.net\\gymapp\\repositories\\memberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F49B243F-080C-494C-B3D3-11F6C11A3A5F}|GymApp.csproj|solutionrelative:repositories\\memberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F49B243F-080C-494C-B3D3-11F6C11A3A5F}|GymApp.csproj|e:\\githublocalrepos\\gymsys asp.net\\gymapp\\repositories\\imemberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F49B243F-080C-494C-B3D3-11F6C11A3A5F}|GymApp.csproj|solutionrelative:repositories\\imemberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F49B243F-080C-494C-B3D3-11F6C11A3A5F}|GymApp.csproj|e:\\githublocalrepos\\gymsys asp.net\\gymapp\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F49B243F-080C-494C-B3D3-11F6C11A3A5F}|GymApp.csproj|solutionrelative:models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F49B243F-080C-494C-B3D3-11F6C11A3A5F}|GymApp.csproj|E:\\GithubLocalRepos\\GymSYS Asp.Net\\GymApp\\models\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F49B243F-080C-494C-B3D3-11F6C11A3A5F}|GymApp.csproj|solutionrelative:models\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MemberRepository.cs",
+              "DocumentMoniker": "E:\\GithubLocalRepos\\GymSYS Asp.Net\\GymApp\\Repositories\\MemberRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\MemberRepository.cs",
+              "ToolTip": "E:\\GithubLocalRepos\\GymSYS Asp.Net\\GymApp\\Repositories\\MemberRepository.cs",
+              "RelativeToolTip": "Repositories\\MemberRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T20:37:15.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IMemberRepository.cs",
+              "DocumentMoniker": "E:\\GithubLocalRepos\\GymSYS Asp.Net\\GymApp\\Repositories\\IMemberRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IMemberRepository.cs",
+              "ToolTip": "E:\\GithubLocalRepos\\GymSYS Asp.Net\\GymApp\\Repositories\\IMemberRepository.cs",
+              "RelativeToolTip": "Repositories\\IMemberRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T20:32:52.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "E:\\GithubLocalRepos\\GymSYS Asp.Net\\GymApp\\Models\\Booking.cs",
+              "RelativeDocumentMoniker": "Models\\Booking.cs",
+              "ToolTip": "E:\\GithubLocalRepos\\GymSYS Asp.Net\\GymApp\\Models\\Booking.cs",
+              "RelativeToolTip": "Models\\Booking.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T08:21:29.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Member.cs",
+              "DocumentMoniker": "E:\\GithubLocalRepos\\GymSYS Asp.Net\\GymApp\\Models\\Member.cs",
+              "RelativeDocumentMoniker": "Models\\Member.cs",
+              "ToolTip": "E:\\GithubLocalRepos\\GymSYS Asp.Net\\GymApp\\Models\\Member.cs",
+              "RelativeToolTip": "Models\\Member.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T08:16:48.559Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

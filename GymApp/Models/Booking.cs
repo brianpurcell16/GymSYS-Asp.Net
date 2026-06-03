@@ -7,9 +7,9 @@ namespace GymApp.Models
 {
     public class Booking
     {
-        public int BookingID { get; set; }
-        public int MemID { get; set; }
-        public int ClassID { get; set; }
+        public int BookingId { get; set; }
+        public int MemId { get; set; }
+        public int ClassId { get; set; }
         public decimal Price { get; set; }
         public DateTime DateBooked { get; set; }
 
