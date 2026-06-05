@@ -13,7 +13,7 @@ namespace GymApp.Repositories
         Booking GetById(int bookingId);
         List<Booking> GetActiveBookings();
         void CancelBooking(int bookingId);
-        bool DeductWallet(string fname, string lname, int classId);
+        bool DeductWallet(string fname, string sname, int classId);
         List<(string Month, decimal Total)> GetRevenueByYear(int year);
     }
 }

@@ -75,14 +75,14 @@ namespace GymApp.Repositories
             }
         }
 
-        public bool DeductWallet(string fname, string lname, int classId)
+        public bool DeductWallet(string fname, string sname, int classId)
         {
             using (var connection = new SqlConnection(_conn))
             using (var command = new SqlCommand("sp_DeductWallet", connection))
             {
                 command.CommandType = CommandType.StoredProcedure;
                 command.Parameters.AddWithValue("@FName", fname);
-                command.Parameters.AddWithValue("@LName", lname);
+                command.Parameters.AddWithValue("@LName", sname);
                 command.Parameters.AddWithValue("@ClassId", classId);
 
                 //this is used as the stored procedure will set the output parameter to 1 if the deduction was successful, otherwise it remains 0

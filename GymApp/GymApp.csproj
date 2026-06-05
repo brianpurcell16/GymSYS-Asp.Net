@@ -138,6 +138,12 @@
     <Compile Include="Repositories\IClassRepository.cs" />
     <Compile Include="Repositories\IMemberRepository.cs" />
     <Compile Include="Repositories\MemberRepository.cs" />
+    <Compile Include="Services\BookingService.cs" />
+    <Compile Include="Services\ClassService.cs" />
+    <Compile Include="Services\IBookingService.cs" />
+    <Compile Include="Services\IClassService.cs" />
+    <Compile Include="Services\IMemberService.cs" />
+    <Compile Include="Services\MemberService.cs" />
     <Compile Include="Validation\FutureDate.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -194,7 +200,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Services\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.rtl.min.css.map" />
