@@ -3,14 +3,30 @@
   "WorkspaceRootPath": "E:\\GithubLocalRepos\\GymSYS Asp.Net\\GymApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F49B243F-080C-494C-B3D3-11F6C11A3A5F}|GymApp.csproj|e:\\githublocalrepos\\gymsys asp.net\\gymapp\\services\\ibookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F49B243F-080C-494C-B3D3-11F6C11A3A5F}|GymApp.csproj|e:\\githublocalrepos\\gymsys asp.net\\gymapp\\controllers\\classcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F49B243F-080C-494C-B3D3-11F6C11A3A5F}|GymApp.csproj|solutionrelative:controllers\\classcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F49B243F-080C-494C-B3D3-11F6C11A3A5F}|GymApp.csproj|e:\\githublocalrepos\\gymsys asp.net\\gymapp\\controllers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F49B243F-080C-494C-B3D3-11F6C11A3A5F}|GymApp.csproj|solutionrelative:controllers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F49B243F-080C-494C-B3D3-11F6C11A3A5F}|GymApp.csproj|e:\\githublocalrepos\\gymsys asp.net\\gymapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F49B243F-080C-494C-B3D3-11F6C11A3A5F}|GymApp.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F49B243F-080C-494C-B3D3-11F6C11A3A5F}|GymApp.csproj|e:\\githublocalrepos\\gymsys asp.net\\gymapp\\services\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F49B243F-080C-494C-B3D3-11F6C11A3A5F}|GymApp.csproj|solutionrelative:services\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F49B243F-080C-494C-B3D3-11F6C11A3A5F}|GymApp.csproj|E:\\GithubLocalRepos\\GymSYS Asp.Net\\GymApp\\services\\ibookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F49B243F-080C-494C-B3D3-11F6C11A3A5F}|GymApp.csproj|solutionrelative:services\\ibookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 256,
+      "VerticalTabListWidth": 140,
       "DocumentGroups": [
         {
           "DockedWidth": 200,
@@ -19,14 +35,65 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ClassController.cs",
+              "DocumentMoniker": "E:\\GithubLocalRepos\\GymSYS Asp.Net\\GymApp\\Controllers\\ClassController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ClassController.cs",
+              "ToolTip": "E:\\GithubLocalRepos\\GymSYS Asp.Net\\GymApp\\Controllers\\ClassController.cs",
+              "RelativeToolTip": "Controllers\\ClassController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-07T08:37:33.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MemberController.cs",
+              "DocumentMoniker": "E:\\GithubLocalRepos\\GymSYS Asp.Net\\GymApp\\Controllers\\MemberController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MemberController.cs",
+              "ToolTip": "E:\\GithubLocalRepos\\GymSYS Asp.Net\\GymApp\\Controllers\\MemberController.cs",
+              "RelativeToolTip": "Controllers\\MemberController.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAkwIoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-07T08:20:52.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\GithubLocalRepos\\GymSYS Asp.Net\\GymApp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "E:\\GithubLocalRepos\\GymSYS Asp.Net\\GymApp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-07T08:20:18.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "IBookingService.cs",
               "DocumentMoniker": "E:\\GithubLocalRepos\\GymSYS Asp.Net\\GymApp\\Services\\IBookingService.cs",
               "RelativeDocumentMoniker": "Services\\IBookingService.cs",
               "ToolTip": "E:\\GithubLocalRepos\\GymSYS Asp.Net\\GymApp\\Services\\IBookingService.cs",
               "RelativeToolTip": "Services\\IBookingService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-04T20:31:57.609Z",
+              "WhenOpened": "2026-06-05T03:43:12.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BookingService.cs",
+              "DocumentMoniker": "E:\\GithubLocalRepos\\GymSYS Asp.Net\\GymApp\\Services\\BookingService.cs",
+              "RelativeDocumentMoniker": "Services\\BookingService.cs",
+              "ToolTip": "E:\\GithubLocalRepos\\GymSYS Asp.Net\\GymApp\\Services\\BookingService.cs",
+              "RelativeToolTip": "Services\\BookingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T03:33:24.211Z",
               "EditorCaption": ""
             }
           ]
