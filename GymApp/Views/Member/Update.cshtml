@@ -1,0 +1,69 @@
+﻿@model GymApp.Models.Member
+
+
+@{
+    ViewBag.Title = "Update Member";
+}
+
+<h2>Update Member</h2>
+
+@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["Success"]
+    </div>
+}
+
+<!-- First stage is to search for the member by their name -->
+@using (Html.BeginForm("Search", "Member", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+    <div class="form-group">
+        <label>First Name</label>
+        <input type="text" name="fname" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Surname</label>
+        <input type="text" name="sname" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary">Search</button>
+}
+
+<!-- The second stage is then a form when the member is found to allow the details to be updated -->
+@if (Model != null)
+{
+    <hr />
+    <h4>Update details for @Model.Fname @Model.Sname</h4>
+
+    @using (Html.BeginForm("Update", "Member", FormMethod.Post))
+    {
+        @Html.AntiForgeryToken()
+        @Html.HiddenFor(m => m.MemID)
+        <!-- Original name must be passed as the stored procedure needs it-->
+        <input type="hidden" name="originalFname" value="@Model.Fname" />
+        <input type="hidden" name="originalSname" value="@Model.Sname" />
+
+        <div class="form-group">
+            @Html.LabelFor(m => m.Fname, "First Name")
+            @Html.TextBoxFor(m => m.Fname, new { @class = "form-control" })
+            @Html.ValidationMessageFor(m => m.Fname)
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(m => m.Sname, "Surname")
+            @Html.TextBoxFor(m => m.Sname, new { @class = "form-control" })
+            @Html.ValidationMessageFor(m => m.Sname)
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(m => m.Email)
+            @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
+            @Html.ValidationMessageFor(m => m.Email)
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(m => m.Phone)
+            @Html.PasswordFor(m => m.Phone, new { @class = "form-control" })
+            @Html.ValidationMessageFor(m => m.Phone)
+        </div>
+        <button type="submit" class="btn btn-success">Save Changes</button>
+
+    }
+

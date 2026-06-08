@@ -1,0 +1,55 @@
+﻿@model List<GymApp.Models.Member>
+
+
+@{
+    ViewBag.Title = "Close Membership";
+}
+
+<h2>Renew Membership</h2>
+
+@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["Success"]
+    </div>
+}
+
+@if (!Model.Any())
+{
+    <div class="alert alert-info">
+        No active members found.
+    </div>
+}
+else
+{
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var member in Model)
+            {
+                <tr>
+                    <td>@member.MemID</td>
+                    <td>@member.Fname @member.Sname</td>
+                    <td>@member.Email</td>
+                    <td>@member.Phone</td>
+                    <td>
+                        @using (Html.BeginForm("Close", "Member", FormMethod.Post))
+                        {
+                            @Html.AntiForgeryToken()
+                            <input type="hidden" name="memId" value="@member.MemID" />
+                            <button type="submit" class="btn btn-danger">Close Membership</button>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

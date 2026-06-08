@@ -1,0 +1,48 @@
+﻿
+@model GymApp.Models.Member
+
+@{
+    ViewBag.Title = "Register Member";
+}
+
+<h2>Register Member</h2>
+
+@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["Success"]
+    </div>
+}
+
+@using (Html.BeginForm("Register", "Member", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+    <div class="form-group">
+        @Html.LabelFor(m => m.Fname, "First Name")
+        @Html.TextBoxFor(m => m.Fname, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.Fname)
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.Sname, "Surname")
+        @Html.TextBoxFor(m => m.Sname, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.Sname)
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.Email)
+        @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.Email)
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.Phone)
+        @Html.PasswordFor(m => m.Phone, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.Phone)
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.DOB, "Date of Birth")
+        @Html.PasswordFor(m => m.Phone, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.Phone)
+    </div>
+    <button type="submit" class="btn btn-primary">Register</button>
+    @Html.ActionLink("Back", "Index", "Home", null, new { @class = "btn btn-secondary" })
+}
+
