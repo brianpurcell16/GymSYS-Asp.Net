@@ -1,0 +1,51 @@
+﻿@model List<(string Month, decimal TotalRevenue)>
+
+@{
+    ViewBag.Title = "Revenue Report";
+}
+
+<h2>Revenue Report</h2>
+
+@using (Html.BeginForm("Revenue", "Booking", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+    <div class="form-group">
+        <label>Year</label>
+        <input type="number" name="year" class="form-control" value="@DateTime.Now.Year" min="2000" max="2100" style="width:150px" />
+    </div>
+    <button type="submit" class="btn btn-primary">Generate Report</button>
+}
+
+@if (Model != null && Model.Any())
+{
+    <table class="table table-bordered mt-4" style="width:400px">
+        <thead>
+            <tr>
+                <th>Month</th>
+                <th>Total Revenue (€)</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Month</td>
+                    <td>@item.TotalRevenue.ToString("F2")</td>
+                </tr>
+            }
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Total</th>
+                <th>€@Model.Sum(x => x.TotalRevenue).ToString("F2")</th>
+            </tr>
+        </tfoot>
+    </table>
+}
+else if (Model != null)
+{
+    <div class="alert alert-info mt-4">
+        No revenue data found for the selected year.
+    </div>
+}
+

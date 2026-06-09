@@ -28,6 +28,17 @@ namespace GymApp.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Schedule(GymClass gymClass)
         {
+
+            DateTime parsedDate;
+            if (!DateTime.TryParse(gymClass.CDate, out parsedDate))
+            {
+                ModelState.AddModelError("CDate", "Please enter a valid date");
+            }
+            else if (parsedDate <= DateTime.Today)
+            {
+                ModelState.AddModelError("CDate", "Date must be in the future");
+            }
+
             if (!ModelState.IsValid) return View(gymClass);
 
             _classService.ScheduleClass(gymClass);

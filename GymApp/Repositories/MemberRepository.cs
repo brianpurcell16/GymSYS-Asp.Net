@@ -141,7 +141,7 @@ namespace GymApp.Repositories
             Phone = reader["Phone"].ToString(),
             DOB = (DateTime)reader["DOB"],
             Status = reader["Status"].ToString(),
-            Wallet = (int)reader["Wallet"],
+            Wallet = Convert.ToInt32(reader["Wallet"]),
             DateRegistered = (DateTime)reader["DateRegistered"]
 
         };

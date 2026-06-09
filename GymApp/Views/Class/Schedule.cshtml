@@ -1,0 +1,54 @@
+﻿@model GymApp.Models.GymClass
+
+
+@{
+    ViewBag.Title = "Schedule Class";
+}
+
+<h2>Schedule a Class</h2>
+
+@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["Success"]
+    </div>
+}
+
+@using (Html.BeginForm("Schedule", "Class", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.Title)
+        @Html.TextBoxFor(m => m.Title, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.Title)
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.Price)
+        @Html.TextBoxFor(m => m.Price, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.Price)
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.CTime, "Time")
+        @Html.TextBoxFor(m => m.CTime, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.CTime)
+    </div>
+    <div class="form-group">
+        <label>Date</label>
+        <input type="date"
+               id="CDate"
+               name="CDate"
+               class="form-control"
+               value="@(Model?.CDate ?? "")" />
+        @Html.ValidationMessageFor(m => m.CDate)
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.Capacity)
+        @Html.TextBoxFor(m => m.Capacity, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.Capacity)
+    </div>
+    <button type="submit" class="btn btn-primary">Schedule Class</button>
+    @Html.ActionLink("Back", "Index", "Home", null, new { @class = "btn btn-secondary" })
+}
+
+

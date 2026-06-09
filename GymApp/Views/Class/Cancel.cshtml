@@ -1,0 +1,57 @@
+﻿@model List<GymApp.Models.GymClass>
+@{
+    ViewBag.Title = "Cancel Class";
+}
+
+<h2>Cancel a Class</h2>
+
+@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["Success"]
+    </div>
+}
+
+@if (!Model.Any())
+{
+    <div class="alert alert-info">
+        No active classes found.
+    </div>
+}
+else
+{
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Title</th>
+                <th>Price</th>
+                <th>Date</th>
+                <th>Time</th>
+                <th>Spaces Left</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var gymClass in Model)
+            {
+                <tr>
+                    <td>@gymClass.ClassID</td>
+                    <td>@gymClass.Title</td>
+                    <td>@gymClass.Price</td>
+                    <td>@gymClass.CDate</td>
+                    <td>@gymClass.CTime</td>
+                    <td>
+                        @using (Html.BeginForm("Cancel", "Class", FormMethod.Post))
+                        {
+                            @Html.AntiForgeryToken()
+                            <input type="hidden" name="classId" value="@gymClass.ClassID" />
+                            <button type="submit" class="btn btn-danger btn-sm">Cancel Class</button>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+

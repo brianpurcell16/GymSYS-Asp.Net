@@ -1,0 +1,57 @@
+﻿@model List<GymApp.Models.Booking>
+
+@{
+    ViewBag.Title = "Cancel Booking";
+}
+
+<h2>Cancel a Booking</h2>
+
+@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["Success"]
+    </div>
+}
+
+@if (!Model.Any())
+{
+    <div class="alert alert-info">
+        No active bookings found.
+    </div>
+}
+else
+{
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Booking ID</th>
+                <th>Member ID</th>
+                <th>Class ID</th>
+                <th>Price</th>
+                <th>Date Booked</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var booking in Model)
+            {
+                <tr>
+                    <td>@booking.BookingId</td>
+                    <td>@booking.MemId</td>
+                    <td>@booking.ClassId</td>
+                    <td>@booking.Price</td>
+                    <td>@booking.DateBooked.ToString("dd/MM/yyyy")</td>
+                    <td>
+                        @using (Html.BeginForm("Cancel", "Booking", FormMethod.Post))
+                        {
+                            @Html.AntiForgeryToken()
+                            <input type="hidden" name="bookingId" value="@booking.BookingId" />
+                            <button type="submit" class="btn btn-danger btn-sm">Cancel Booking</button>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+

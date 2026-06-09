@@ -1,0 +1,46 @@
+﻿@model List<GymApp.Models.GymClass>
+
+@{
+    ViewBag.Title = "Book a Class";
+}
+
+<h2>Book a Class</h2>
+
+@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["Success"]
+    </div>
+}
+
+@Html.ValidationSummary(true, "", new { @class = "alert alert-danger" })
+
+@using (Html.BeginForm("Book", "Booking", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+    <div class="form-group">
+        <label>First Name</label>
+        <input type="text" name="fname" class="form-control" required />
+    </div>
+    <div class="form-group">
+        <label>Surname</label>
+        <input type="text" name="sname" class="form-control" required />
+    </div>
+    <div class="form-group">
+        <label>Select Class</label>
+        <select name="classId" class="form-control">
+            @foreach (var gymClass in Model)
+            {
+                <option value="@gymClass.ClassID">
+                    @gymClass.Title - @gymClass.CDate
+                    @gymClass.CTime - €@gymClass.Price
+                    (@gymClass.AvailableSpaces spaces left)
+                </option>
+            }
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Book Class</button>
+    @Html.ActionLink("Back", "Index", "Home", null, new { @class = "btn btn-secondary" })
+
+}
+

@@ -82,7 +82,7 @@ namespace GymApp.Repositories
             {
                 command.CommandType = CommandType.StoredProcedure;
                 command.Parameters.AddWithValue("@FName", fname);
-                command.Parameters.AddWithValue("@LName", sname);
+                command.Parameters.AddWithValue("@SName", sname);
                 command.Parameters.AddWithValue("@ClassId", classId);
 
                 //this is used as the stored procedure will set the output parameter to 1 if the deduction was successful, otherwise it remains 0
@@ -93,7 +93,7 @@ namespace GymApp.Repositories
                 command.Parameters.Add(successParam);
                 connection.Open();
                 command.ExecuteNonQuery();
-                return (int)successParam.Value == 1;
+                return Convert.ToInt32(successParam.Value) == 1;
             }
         }
 

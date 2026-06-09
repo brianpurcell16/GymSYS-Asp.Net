@@ -3,37 +3,65 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - My ASP.NET Application</title>
-    @Styles.Render("~/Content/css")
-    @Scripts.Render("~/bundles/modernizr")
+    <title>@ViewBag.Title - Gym Application</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/Site.css" rel="stylesheet" />
 </head>
 <body>
-    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
-            @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
-            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" title="Toggle navigation" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand" href="/">Gym Manager</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse d-sm-inline-flex justify-content-between">
-                <ul class="navbar-nav flex-grow-1">
-                    <li>@Html.ActionLink("Home", "Index", "Home", new { area = "" }, new { @class = "nav-link" })</li>
-                    <li>@Html.ActionLink("About", "About", "Home", new { area = "" }, new { @class = "nav-link" })</li>
-                    <li>@Html.ActionLink("Contact", "Contact", "Home", new { area = "" }, new { @class = "nav-link" })</li>
+            <div class="collapse navbar-collapse" id="navbarMenu">
+                <ul class="navbar-nav">
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Members</a>
+                        <ul class="dropdown-menu">
+                            <li>@Html.ActionLink("Register", "Register", "Member", null, new { @class = "dropdown-item" })</li>
+                            <li>@Html.ActionLink("Update", "Update", "Member", null, new { @class = "dropdown-item" })</li>
+                            <li>@Html.ActionLink("Add Funds", "AddFunds", "Member", null, new { @class = "dropdown-item" })</li>
+                            <li>@Html.ActionLink("Renew", "Renew", "Member", null, new { @class = "dropdown-item" })</li>
+                            <li>@Html.ActionLink("Close", "Close", "Member", null, new { @class = "dropdown-item" })</li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Classes</a>
+                        <ul class="dropdown-menu">
+                            <li>@Html.ActionLink("Schedule Class", "Schedule", "Class", null, new { @class = "dropdown-item" })</li>
+                            <li>@Html.ActionLink("Cancel Class", "Cancel", "Class", null, new { @class = "dropdown-item" })</li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Bookings</a>
+                        <ul class="dropdown-menu">
+                            <li>@Html.ActionLink("Book a Class", "Book", "Booking", null, new { @class = "dropdown-item" })</li>
+                            <li>@Html.ActionLink("Cancel Booking", "Cancel", "Booking", null, new { @class = "dropdown-item" })</li>
+                            <li>@Html.ActionLink("Revenue Report", "Revenue", "Booking", null, new { @class = "dropdown-item" })</li>
+                        </ul>
+                    </li>
+
                 </ul>
             </div>
         </div>
     </nav>
-    <div class="container body-content">
+
+    <div class="container" style="margin-top: 80px;">
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+            <p>&copy; @DateTime.Now.Year - Gym Application</p>
         </footer>
     </div>
 
-    @Scripts.Render("~/bundles/jquery")
-    @Scripts.Render("~/bundles/bootstrap")
+    <script src="~/Scripts/jquery-3.7.1.min.js"></script>
+    <script src="~/Scripts/bootstrap.bundle.min.js"></script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
     @RenderSection("scripts", required: false)
 </body>
 </html>

@@ -12,6 +12,7 @@ namespace GymApp
     {
         protected void Application_Start()
         {
+            UnityConfig.RegisterComponents(); // Register Unity container
             AreaRegistration.RegisterAllAreas();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);

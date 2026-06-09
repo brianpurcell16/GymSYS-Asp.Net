@@ -79,7 +79,7 @@ namespace GymApp.Repositories
         public bool DecreaseSpaces(int classId)
         {
             using (var con = new SqlConnection(_conn))
-            using (var cmd = new SqlCommand("sp_DecreaseSpaces", con))
+            using (var cmd = new SqlCommand("sp_DecrementClassSpaces", con))
             {
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.Parameters.AddWithValue("@ClassID", classId);
@@ -92,7 +92,7 @@ namespace GymApp.Repositories
         public void IncreaseSpaces(int classId)
         {
             using (var con = new SqlConnection(_conn))
-            using (var cmd = new SqlCommand("sp_IncreaseSpaces", con))
+            using (var cmd = new SqlCommand("sp_IncrementClassSpaces", con))
             {
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.Parameters.AddWithValue("@ClassID", classId);
@@ -105,12 +105,12 @@ namespace GymApp.Repositories
         {
             ClassID = (int)reader["ClassID"],
             Title = reader["Title"].ToString(),
-            Price = (int)reader["Price"],
+            Price = Convert.ToInt32(reader["Price"]),
             Status = reader["Status"].ToString(),
             CTime = reader["CTime"].ToString(),
-            CDate = (DateTime)reader["CDate"],
-            Capacity = (int)reader["Capacity"],
-            AvailableSpaces = (int)reader["AvailableSpaces"]
+            CDate = reader["CDate"].ToString(),
+            Capacity = Convert.ToInt32(reader["Capacity"]),
+            AvailableSpaces = Convert.ToInt32(reader["AvailableSpaces"])
         };
     }
 }
