@@ -1,33 +1,51 @@
 ﻿@{
-    ViewBag.Title = "Home Page";
+    ViewBag.Title = "Home";
 }
 
-<main>
-    <section class="row" aria-labelledby="aspnetTitle">
-        <h1 id="title">ASP.NET</h1>
-        <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-        <p><a href="https://asp.net" class="btn btn-primary btn-md">Learn more &raquo;</a></p>
-    </section>
+<div class="text-center" style="padding: 40px 0 20px 0;">
+    <h1><i class="fas fa-dumbbell"></i> Gym Manager</h1>
+    <p class="lead">Manage members, classes and bookings all in one place.</p>
+    <hr />
+</div>
 
-    <div class="row">
-        <section class="col-md-4" aria-labelledby="gettingStartedTitle">
-            <h2 id="gettingStartedTitle">Getting started</h2>
-            <p>
-                ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-                enables a clean separation of concerns and gives you full control over markup
-                for enjoyable, agile development.
-            </p>
-            <p><a class="btn btn-outline-dark" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
-        </section>
-        <section class="col-md-4" aria-labelledby="librariesTitle">
-            <h2 id="librariesTitle">Get more libraries</h2>
-            <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-            <p><a class="btn btn-outline-dark" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
-        </section>
-        <section class="col-md-4" aria-labelledby="hostingTitle">
-            <h2 id="hostingTitle">Web Hosting</h2>
-            <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-            <p><a class="btn btn-outline-dark" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
-        </section>
+<div class="row text-center">
+    <div class="col-md-4">
+        <div class="card mb-4 shadow-sm">
+            <div class="card-body">
+                <h3><i class="fas fa-users"></i> Members</h3>
+                <p>Register new members, update details, manage wallets and memberships.</p>
+                <hr />
+                @Html.ActionLink("Register Member", "Register", "Member", null, new { @class = "btn btn-primary m-1" })
+                @Html.ActionLink("Update Member", "Update", "Member", null, new { @class = "btn btn-secondary m-1" })
+                @Html.ActionLink("Add Funds", "AddFunds", "Member", null, new { @class = "btn btn-secondary m-1" })
+                @Html.ActionLink("Renew", "Renew", "Member", null, new { @class = "btn btn-secondary m-1" })
+                @Html.ActionLink("Close Membership", "Close", "Member", null, new { @class = "btn btn-danger m-1" })
+            </div>
+        </div>
     </div>
-</main>
+
+    <div class="col-md-4">
+        <div class="card mb-4 shadow-sm">
+            <div class="card-body">
+                <h3><i class="fas fa-calendar-alt"></i> Classes</h3>
+                <p>Schedule new gym classes and cancel existing ones.</p>
+                <hr />
+                @Html.ActionLink("Schedule Class", "Schedule", "Class", null, new { @class = "btn btn-primary m-1" })
+                @Html.ActionLink("Cancel Class", "Cancel", "Class", null, new { @class = "btn btn-danger m-1" })
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card mb-4 shadow-sm">
+            <div class="card-body">
+                <h3><i class="fas fa-clipboard-list"></i> Bookings</h3>
+                <p>Book members into classes, cancel bookings and view revenue reports.</p>
+                <hr />
+                @Html.ActionLink("Book a Class", "Book", "Booking", null, new { @class = "btn btn-primary m-1" })
+                @Html.ActionLink("Cancel Booking", "Cancel", "Booking", null, new { @class = "btn btn-danger m-1" })
+                @Html.ActionLink("Revenue Report", "Revenue", "Booking", null, new { @class = "btn btn-secondary m-1" })
+            </div>
+        </div>
+    </div>
+</div>

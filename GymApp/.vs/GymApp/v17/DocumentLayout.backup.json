@@ -3,23 +3,40 @@
   "WorkspaceRootPath": "E:\\GithubLocalRepos\\GymSYS Asp.Net\\GymApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F49B243F-080C-494C-B3D3-11F6C11A3A5F}|GymApp.csproj|e:\\githublocalrepos\\gymsys asp.net\\gymapp\\repositories\\bookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AF2BC05F-A494-4AB0-AB5D-6D2E29CE7D07}|..\\GymApp.Tests\\GymApp.Tests.csproj|e:\\githublocalrepos\\gymsys asp.net\\gymapp.tests\\models\\membervalidationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF2BC05F-A494-4AB0-AB5D-6D2E29CE7D07}|..\\GymApp.Tests\\GymApp.Tests.csproj|e:\\githublocalrepos\\gymsys asp.net\\gymapp.tests\\services\\bookingservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF2BC05F-A494-4AB0-AB5D-6D2E29CE7D07}|..\\GymApp.Tests\\GymApp.Tests.csproj|e:\\githublocalrepos\\gymsys asp.net\\gymapp.tests\\services\\memberservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F49B243F-080C-494C-B3D3-11F6C11A3A5F}|GymApp.csproj|E:\\GithubLocalRepos\\GymSYS Asp.Net\\GymApp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F49B243F-080C-494C-B3D3-11F6C11A3A5F}|GymApp.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F49B243F-080C-494C-B3D3-11F6C11A3A5F}|GymApp.csproj|E:\\GithubLocalRepos\\GymSYS Asp.Net\\GymApp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F49B243F-080C-494C-B3D3-11F6C11A3A5F}|GymApp.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F49B243F-080C-494C-B3D3-11F6C11A3A5F}|GymApp.csproj|E:\\GithubLocalRepos\\GymSYS Asp.Net\\GymApp\\repositories\\bookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F49B243F-080C-494C-B3D3-11F6C11A3A5F}|GymApp.csproj|solutionrelative:repositories\\bookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F49B243F-080C-494C-B3D3-11F6C11A3A5F}|GymApp.csproj|e:\\githublocalrepos\\gymsys asp.net\\gymapp\\repositories\\classrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F49B243F-080C-494C-B3D3-11F6C11A3A5F}|GymApp.csproj|E:\\GithubLocalRepos\\GymSYS Asp.Net\\GymApp\\repositories\\classrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F49B243F-080C-494C-B3D3-11F6C11A3A5F}|GymApp.csproj|solutionrelative:repositories\\classrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F49B243F-080C-494C-B3D3-11F6C11A3A5F}|GymApp.csproj|e:\\githublocalrepos\\gymsys asp.net\\gymapp\\views\\booking\\book.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{F49B243F-080C-494C-B3D3-11F6C11A3A5F}|GymApp.csproj|E:\\GithubLocalRepos\\GymSYS Asp.Net\\GymApp\\views\\booking\\book.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F49B243F-080C-494C-B3D3-11F6C11A3A5F}|GymApp.csproj|solutionrelative:views\\booking\\book.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F49B243F-080C-494C-B3D3-11F6C11A3A5F}|GymApp.csproj|e:\\githublocalrepos\\gymsys asp.net\\gymapp\\views\\class\\cancel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{F49B243F-080C-494C-B3D3-11F6C11A3A5F}|GymApp.csproj|E:\\GithubLocalRepos\\GymSYS Asp.Net\\GymApp\\views\\class\\cancel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F49B243F-080C-494C-B3D3-11F6C11A3A5F}|GymApp.csproj|solutionrelative:views\\class\\cancel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F49B243F-080C-494C-B3D3-11F6C11A3A5F}|GymApp.csproj|e:\\githublocalrepos\\gymsys asp.net\\gymapp\\views\\class\\schedule.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{F49B243F-080C-494C-B3D3-11F6C11A3A5F}|GymApp.csproj|E:\\GithubLocalRepos\\GymSYS Asp.Net\\GymApp\\views\\class\\schedule.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F49B243F-080C-494C-B3D3-11F6C11A3A5F}|GymApp.csproj|solutionrelative:views\\class\\schedule.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
@@ -27,11 +44,11 @@
       "RelativeMoniker": "D:0:0:{F49B243F-080C-494C-B3D3-11F6C11A3A5F}|GymApp.csproj|solutionrelative:controllers\\classcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F49B243F-080C-494C-B3D3-11F6C11A3A5F}|GymApp.csproj|e:\\githublocalrepos\\gymsys asp.net\\gymapp\\models\\gymclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F49B243F-080C-494C-B3D3-11F6C11A3A5F}|GymApp.csproj|E:\\GithubLocalRepos\\GymSYS Asp.Net\\GymApp\\models\\gymclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F49B243F-080C-494C-B3D3-11F6C11A3A5F}|GymApp.csproj|solutionrelative:models\\gymclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F49B243F-080C-494C-B3D3-11F6C11A3A5F}|GymApp.csproj|e:\\githublocalrepos\\gymsys asp.net\\gymapp\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{F49B243F-080C-494C-B3D3-11F6C11A3A5F}|GymApp.csproj|E:\\GithubLocalRepos\\GymSYS Asp.Net\\GymApp\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{F49B243F-080C-494C-B3D3-11F6C11A3A5F}|GymApp.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
@@ -39,39 +56,35 @@
       "RelativeMoniker": "D:0:0:{F49B243F-080C-494C-B3D3-11F6C11A3A5F}|GymApp.csproj|solutionrelative:views\\member\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F49B243F-080C-494C-B3D3-11F6C11A3A5F}|GymApp.csproj|e:\\githublocalrepos\\gymsys asp.net\\gymapp\\repositories\\memberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F49B243F-080C-494C-B3D3-11F6C11A3A5F}|GymApp.csproj|E:\\GithubLocalRepos\\GymSYS Asp.Net\\GymApp\\repositories\\memberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F49B243F-080C-494C-B3D3-11F6C11A3A5F}|GymApp.csproj|solutionrelative:repositories\\memberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F49B243F-080C-494C-B3D3-11F6C11A3A5F}|GymApp.csproj|e:\\githublocalrepos\\gymsys asp.net\\gymapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F49B243F-080C-494C-B3D3-11F6C11A3A5F}|GymApp.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F49B243F-080C-494C-B3D3-11F6C11A3A5F}|GymApp.csproj|E:\\GithubLocalRepos\\GymSYS Asp.Net\\GymApp\\views\\member\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F49B243F-080C-494C-B3D3-11F6C11A3A5F}|GymApp.csproj|solutionrelative:views\\member\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F49B243F-080C-494C-B3D3-11F6C11A3A5F}|GymApp.csproj|e:\\githublocalrepos\\gymsys asp.net\\gymapp\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F49B243F-080C-494C-B3D3-11F6C11A3A5F}|GymApp.csproj|E:\\GithubLocalRepos\\GymSYS Asp.Net\\GymApp\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F49B243F-080C-494C-B3D3-11F6C11A3A5F}|GymApp.csproj|solutionrelative:app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F49B243F-080C-494C-B3D3-11F6C11A3A5F}|GymApp.csproj|e:\\githublocalrepos\\gymsys asp.net\\gymapp\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F49B243F-080C-494C-B3D3-11F6C11A3A5F}|GymApp.csproj|E:\\GithubLocalRepos\\GymSYS Asp.Net\\GymApp\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F49B243F-080C-494C-B3D3-11F6C11A3A5F}|GymApp.csproj|solutionrelative:global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F49B243F-080C-494C-B3D3-11F6C11A3A5F}|GymApp.csproj|e:\\githublocalrepos\\gymsys asp.net\\gymapp\\app_start\\unityconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F49B243F-080C-494C-B3D3-11F6C11A3A5F}|GymApp.csproj|E:\\GithubLocalRepos\\GymSYS Asp.Net\\GymApp\\app_start\\unityconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F49B243F-080C-494C-B3D3-11F6C11A3A5F}|GymApp.csproj|solutionrelative:app_start\\unityconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F49B243F-080C-494C-B3D3-11F6C11A3A5F}|GymApp.csproj|e:\\githublocalrepos\\gymsys asp.net\\gymapp\\views\\booking\\revenue.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{F49B243F-080C-494C-B3D3-11F6C11A3A5F}|GymApp.csproj|E:\\GithubLocalRepos\\GymSYS Asp.Net\\GymApp\\views\\booking\\revenue.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F49B243F-080C-494C-B3D3-11F6C11A3A5F}|GymApp.csproj|solutionrelative:views\\booking\\revenue.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F49B243F-080C-494C-B3D3-11F6C11A3A5F}|GymApp.csproj|e:\\githublocalrepos\\gymsys asp.net\\gymapp\\views\\booking\\cancel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{F49B243F-080C-494C-B3D3-11F6C11A3A5F}|GymApp.csproj|E:\\GithubLocalRepos\\GymSYS Asp.Net\\GymApp\\views\\booking\\cancel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F49B243F-080C-494C-B3D3-11F6C11A3A5F}|GymApp.csproj|solutionrelative:views\\booking\\cancel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F49B243F-080C-494C-B3D3-11F6C11A3A5F}|GymApp.csproj|e:\\githublocalrepos\\gymsys asp.net\\gymapp\\views\\member\\close.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{F49B243F-080C-494C-B3D3-11F6C11A3A5F}|GymApp.csproj|E:\\GithubLocalRepos\\GymSYS Asp.Net\\GymApp\\views\\member\\close.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F49B243F-080C-494C-B3D3-11F6C11A3A5F}|GymApp.csproj|solutionrelative:views\\member\\close.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
@@ -107,6 +120,58 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MemberValidationTests.cs",
+              "DocumentMoniker": "E:\\GithubLocalRepos\\GymSYS Asp.Net\\GymApp.Tests\\Models\\MemberValidationTests.cs",
+              "RelativeDocumentMoniker": "..\\GymApp.Tests\\Models\\MemberValidationTests.cs",
+              "ToolTip": "E:\\GithubLocalRepos\\GymSYS Asp.Net\\GymApp.Tests\\Models\\MemberValidationTests.cs",
+              "RelativeToolTip": "..\\GymApp.Tests\\Models\\MemberValidationTests.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACMAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T04:56:44.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BookingServiceTests.cs",
+              "DocumentMoniker": "E:\\GithubLocalRepos\\GymSYS Asp.Net\\GymApp.Tests\\Services\\BookingServiceTests.cs",
+              "RelativeDocumentMoniker": "..\\GymApp.Tests\\Services\\BookingServiceTests.cs",
+              "ToolTip": "E:\\GithubLocalRepos\\GymSYS Asp.Net\\GymApp.Tests\\Services\\BookingServiceTests.cs",
+              "RelativeToolTip": "..\\GymApp.Tests\\Services\\BookingServiceTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T04:36:43.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MemberServiceTests.cs",
+              "DocumentMoniker": "E:\\GithubLocalRepos\\GymSYS Asp.Net\\GymApp.Tests\\Services\\MemberServiceTests.cs",
+              "RelativeDocumentMoniker": "..\\GymApp.Tests\\Services\\MemberServiceTests.cs",
+              "ToolTip": "E:\\GithubLocalRepos\\GymSYS Asp.Net\\GymApp.Tests\\Services\\MemberServiceTests.cs",
+              "RelativeToolTip": "..\\GymApp.Tests\\Services\\MemberServiceTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T04:21:15.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\GithubLocalRepos\\GymSYS Asp.Net\\GymApp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "E:\\GithubLocalRepos\\GymSYS Asp.Net\\GymApp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-10T04:14:20.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "BookingRepository.cs",
               "DocumentMoniker": "E:\\GithubLocalRepos\\GymSYS Asp.Net\\GymApp\\Repositories\\BookingRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\BookingRepository.cs",
@@ -119,7 +184,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "ClassRepository.cs",
               "DocumentMoniker": "E:\\GithubLocalRepos\\GymSYS Asp.Net\\GymApp\\Repositories\\ClassRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\ClassRepository.cs",
@@ -132,7 +197,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "Web.config",
               "DocumentMoniker": "E:\\GithubLocalRepos\\GymSYS Asp.Net\\GymApp\\Web.config",
               "RelativeDocumentMoniker": "Web.config",
@@ -145,7 +210,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "GymClass.cs",
               "DocumentMoniker": "E:\\GithubLocalRepos\\GymSYS Asp.Net\\GymApp\\Models\\GymClass.cs",
               "RelativeDocumentMoniker": "Models\\GymClass.cs",
@@ -158,7 +223,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "MemberRepository.cs",
               "DocumentMoniker": "E:\\GithubLocalRepos\\GymSYS Asp.Net\\GymApp\\Repositories\\MemberRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\MemberRepository.cs",
@@ -171,7 +236,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "BundleConfig.cs",
               "DocumentMoniker": "E:\\GithubLocalRepos\\GymSYS Asp.Net\\GymApp\\App_Start\\BundleConfig.cs",
               "RelativeDocumentMoniker": "App_Start\\BundleConfig.cs",
@@ -184,20 +249,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 4,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "E:\\GithubLocalRepos\\GymSYS Asp.Net\\GymApp\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
               "ToolTip": "E:\\GithubLocalRepos\\GymSYS Asp.Net\\GymApp\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-06-09T05:10:35.708Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "Global.asax.cs",
               "DocumentMoniker": "E:\\GithubLocalRepos\\GymSYS Asp.Net\\GymApp\\Global.asax.cs",
               "RelativeDocumentMoniker": "Global.asax.cs",
@@ -210,7 +275,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "UnityConfig.cs",
               "DocumentMoniker": "E:\\GithubLocalRepos\\GymSYS Asp.Net\\GymApp\\App_Start\\UnityConfig.cs",
               "RelativeDocumentMoniker": "App_Start\\UnityConfig.cs",
@@ -223,7 +288,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "Revenue.cshtml",
               "DocumentMoniker": "E:\\GithubLocalRepos\\GymSYS Asp.Net\\GymApp\\Views\\Booking\\Revenue.cshtml",
               "RelativeDocumentMoniker": "Views\\Booking\\Revenue.cshtml",
@@ -236,7 +301,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "Cancel.cshtml",
               "DocumentMoniker": "E:\\GithubLocalRepos\\GymSYS Asp.Net\\GymApp\\Views\\Booking\\Cancel.cshtml",
               "RelativeDocumentMoniker": "Views\\Booking\\Cancel.cshtml",
@@ -249,7 +314,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "Book.cshtml",
               "DocumentMoniker": "E:\\GithubLocalRepos\\GymSYS Asp.Net\\GymApp\\Views\\Booking\\Book.cshtml",
               "RelativeDocumentMoniker": "Views\\Booking\\Book.cshtml",
@@ -262,7 +327,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "Cancel.cshtml",
               "DocumentMoniker": "E:\\GithubLocalRepos\\GymSYS Asp.Net\\GymApp\\Views\\Class\\Cancel.cshtml",
               "RelativeDocumentMoniker": "Views\\Class\\Cancel.cshtml",
@@ -275,7 +340,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "Schedule.cshtml",
               "DocumentMoniker": "E:\\GithubLocalRepos\\GymSYS Asp.Net\\GymApp\\Views\\Class\\Schedule.cshtml",
               "RelativeDocumentMoniker": "Views\\Class\\Schedule.cshtml",
@@ -288,7 +353,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "Close.cshtml",
               "DocumentMoniker": "E:\\GithubLocalRepos\\GymSYS Asp.Net\\GymApp\\Views\\Member\\Close.cshtml",
               "RelativeDocumentMoniker": "Views\\Member\\Close.cshtml",
@@ -301,7 +366,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 22,
               "Title": "Renew.cshtml",
               "DocumentMoniker": "E:\\GithubLocalRepos\\GymSYS Asp.Net\\GymApp\\Views\\Member\\Renew.cshtml",
               "RelativeDocumentMoniker": "Views\\Member\\Renew.cshtml",
@@ -314,7 +379,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 23,
               "Title": "AddFunds.cshtml",
               "DocumentMoniker": "E:\\GithubLocalRepos\\GymSYS Asp.Net\\GymApp\\Views\\Member\\AddFunds.cshtml",
               "RelativeDocumentMoniker": "Views\\Member\\AddFunds.cshtml",
@@ -327,7 +392,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "Update.cshtml",
               "DocumentMoniker": "E:\\GithubLocalRepos\\GymSYS Asp.Net\\GymApp\\Views\\Member\\Update.cshtml",
               "RelativeDocumentMoniker": "Views\\Member\\Update.cshtml",
@@ -340,7 +405,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "Register.cshtml",
               "DocumentMoniker": "E:\\GithubLocalRepos\\GymSYS Asp.Net\\GymApp\\Views\\Member\\Register.cshtml",
               "RelativeDocumentMoniker": "Views\\Member\\Register.cshtml",
@@ -353,7 +418,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 25,
               "Title": "BookingController.cs",
               "DocumentMoniker": "E:\\GithubLocalRepos\\GymSYS Asp.Net\\GymApp\\Controllers\\BookingController.cs",
               "RelativeDocumentMoniker": "Controllers\\BookingController.cs",
@@ -366,7 +431,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "ClassController.cs",
               "DocumentMoniker": "E:\\GithubLocalRepos\\GymSYS Asp.Net\\GymApp\\Controllers\\ClassController.cs",
               "RelativeDocumentMoniker": "Controllers\\ClassController.cs",
@@ -379,7 +444,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 24,
               "Title": "HomeController.cs",
               "DocumentMoniker": "E:\\GithubLocalRepos\\GymSYS Asp.Net\\GymApp\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -392,7 +457,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 26,
               "Title": "BookingService.cs",
               "DocumentMoniker": "E:\\GithubLocalRepos\\GymSYS Asp.Net\\GymApp\\Services\\BookingService.cs",
               "RelativeDocumentMoniker": "Services\\BookingService.cs",
